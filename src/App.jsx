@@ -4,7 +4,7 @@ import Footer from "./Pages/Share/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="primary_bg">
       <Header />
       <div className="min-h-[calc(100vh-100px)]">
         <Outlet />
