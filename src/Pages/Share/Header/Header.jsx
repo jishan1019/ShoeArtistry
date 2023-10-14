@@ -47,7 +47,7 @@ const Header = () => {
             ShoeArtistry
           </a>
 
-          <ul className="flex cursor-pointer items-center gap-4">
+          <ul className="md:flex cursor-pointer items-center gap-4 hidden">
             <li>Home</li>
             <li>Gallery</li>
             <li>Shop</li>
