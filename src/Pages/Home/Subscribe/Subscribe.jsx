@@ -16,7 +16,7 @@ const Subscribe = () => {
             placeholder="Enter your email address"
           />
 
-          <button className="primary_bg text-white px-12 pt-[9.5px] pb-[10px]">
+          <button className="primary_bg hover:bg-[#73C2ED] ease-out text-white px-12 pt-[9.5px] pb-[10px]">
             Go
           </button>
         </div>
