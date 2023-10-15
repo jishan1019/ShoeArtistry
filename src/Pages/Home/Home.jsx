@@ -3,6 +3,7 @@ import Hero from "./Hero/Hero";
 import PopularProduct from "./PopularProduct/PopularProduct";
 import BestProduct from "./BestProduct/BestProduct";
 import HappyCustomer from "./HappyCustomer/HappyCustomer";
+import Subscribe from "./Subscribe/Subscribe";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <PopularProduct />
       <BestProduct />
       <HappyCustomer />
+      <Subscribe />
     </div>
   );
 };
