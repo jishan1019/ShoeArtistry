@@ -6,6 +6,14 @@ import {
 } from "react-icons/bs";
 
 const PopularProduct = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <section className="pb-28 bg-[#F9F8FF] pt-28 relative overflow-hidden">
       <div>
@@ -18,7 +26,7 @@ const PopularProduct = () => {
       </div>
 
       {/* Card */}
-      <div className="flex justify-center items-center relative gap-4 md:gap-40 mx-2 h-full">
+      <div className="flex justify-center items-center relative gap-40 mx-2 h-full">
         <div className="text-[#0380C0]">
           <BsFillArrowLeftCircleFill className="h-10 w-10" />
         </div>
