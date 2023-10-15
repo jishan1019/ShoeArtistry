@@ -3,8 +3,8 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="navbar ">
-        <div className="navbar-start text-white">
+      <div className="navbar  ">
+        <div className="navbar-start">
           <div className="dropdown md:hidden">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <svg
@@ -38,7 +38,7 @@ const Header = () => {
             </ul>
           </div>
 
-          <a className="font-semibold cursor-pointer normal-case text-xl hidden md:block ">
+          <a className="font-semibold cursor-pointer normal-case text-xl hidden md:block text-white ">
             ShoeArtistry
           </a>
         </div>
