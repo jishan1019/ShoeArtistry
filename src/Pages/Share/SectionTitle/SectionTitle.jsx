@@ -3,8 +3,8 @@ import React from "react";
 const SectionTitle = ({ titel, subTitel }) => {
   return (
     <div>
-      <h1 className="text-center mt-4 text-3xl font-bold ">{titel}</h1>
-      <div className="flex flex-col  mb-2 border-opacity-50 w-1/2 md:w-[20%] mx-auto">
+      <h1 className="text-center mt-4 text-2xl font-bold ">{titel}</h1>
+      <div className="flex flex-col  mb-2 border-opacity-50 w-1/2 md:w-[10%] mx-auto">
         <div className="divider">
           <button className="">
             <svg
